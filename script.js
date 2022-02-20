@@ -16,23 +16,6 @@ const randomSelect = (arr) => {
 };
 
 //format meditation message input => arr-> [inhale, hold, exhale, boxcycles]
-const formatMsg = (arr) => {
-  let inhale = arr[0];
-  let hold = arr[1];
-  let exhale = arr[2];
-  let boxCycle = arr[3];
-
-  //inhale for 5 then hold for 2 then exhale for 3 then hold for 6 , then repeat for 4 box cycle
-  let msg =
-    "Inhale for 4 then hold for 4 then exhale for 4 then hold for 4 , then repeat for 4 box cycle";
-  if (hold === 0) {
-    msg = `Inhale for ${inhale} then exhale for ${exhale} then inhale for ${inhale} then exhale for ${exhale} , then repeat for ${boxCycle} box cycle`;
-  } else {
-    msg = `Inhale for ${inhale} then hold for ${hold} then exhale for ${inhale} then hold for ${hold} , then repeat for ${boxCycle} box cycle`;
-  }
-
-  return msg;
-};
 
 //main program -- generator
 
