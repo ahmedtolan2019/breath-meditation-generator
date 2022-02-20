@@ -41,4 +41,4 @@ For who want to meditate randomly, this app gives you random ways to breath and 
 
 MIT License
 
-Copyright (c) [2022] [AhmedTolan]
+Copyright (c) [Ahmed Tolan](https://github.com/ahmedtolan2019)
