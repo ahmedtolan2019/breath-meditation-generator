@@ -26,9 +26,9 @@ const formatMsg = (obj) => {
   let msg =
     "Inhale for 4 then hold for 4 then exhale for 4 then hold for 4 , then repeat for 4 box cycle";
   if (hold === 0) {
-    msg = `Inhale for ${inhale} then exhale for ${exhale} then inhale for ${inhale} then exhale for ${exhale} , then repeat for ${boxCycle} box cycle`;
+    msg = `Inhale for ${inhale},\nexhale for ${exhale},\ninhale for ${inhale},\nexhale for ${exhale},\nthen repeat for ${boxCycle} box cycle.`;
   } else {
-    msg = `Inhale for ${inhale} then hold for ${hold} then exhale for ${inhale} then hold for ${hold} , then repeat for ${boxCycle} box cycle`;
+    msg = `Inhale for ${inhale},\nhold for ${hold},\nexhale for ${inhale},\nhold for ${hold},\nthen repeat for ${boxCycle} box cycle.`;
   }
 
   return msg;
