@@ -1,3 +1,6 @@
+//user name
+let user = "Ahmed Tolan"
+
 //data source
 const dataSource = {
     hold: [true, false],
