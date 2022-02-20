@@ -9,3 +9,8 @@ const dataSource = {
 }
 
 //function that randomly select from an array
+const randomSelect = arr => {
+    let arrLen = arr.length
+    let randomIndex = Math.floor(Math.random() * arrLen)
+    return arr[randomIndex]
+}
