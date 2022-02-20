@@ -16,11 +16,11 @@ const randomSelect = arr => {
 }
 
 //format meditation message input => arr-> [inhale, hold, exhale, boxcycles]
-const formatMsg = arr =>{
-    let inhale = arr[0];
-    let hold = arr[1];
-    let exhale = arr[2];
-    let boxCycle = arr[3];
+const formatMsg = obj =>{
+    let inhale = obj.inhale;
+    let hold = obj.hold;
+    let exhale = obj.exhale;
+    let boxCycle = obj.boxCycle;
 
     //inhale for 5 then hold for 2 then exhale for 3 then hold for 6 , then repeat for 4 box cycle
     let msg = "Inhale for 4 then hold for 4 then exhale for 4 then hold for 4 , then repeat for 4 box cycle"
