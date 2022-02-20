@@ -2,33 +2,43 @@
 
 ## description
 
-    - main purpose
-    - why did you built this project
-    - what problems it solves
-    - what you learn from it
-    - motivations for the project
+### Main purpose
+
+This application is intended to randomly show methods for meditation using breathing
+
+### Why did I built this project
+
+I built this project as a portofolio project in codecademy fullstack career path after finishing Js module part 1.
+
+### What I learn from it
+
+I learn specially how to plan, using kanban boards and using Git and GitHub flow
+
+### Motivations for this project
+
+I intend to take this small project and working on it to be a proffisional meditation app.
 
 ## features
 
-    - show off your features
-    - use screenshots and gifs
+For who want to meditate randomly, this app gives you random ways to breath and i am sure it will make you calm, focous and destressed
 
 ## how to use
 
-    - step-by-step instructions
-    - how to install and use
-    - any software or packages needs to be installed
+- clone the project
+- cd project name
+- open the terminal and enter `node script.js`
 
 ## technologies
 
-    - list of technologies and framworks
-    - what purpose they serve in your project
+- javaScript
 
 ## collaborators
 
-    - if other have contributed to your project
-    - use links to thier GitHub profiles
+- no collaborators
+- i am being inspired by app [BetterSleep: Sleep tracker](https://play.google.com/store/apps/details?id=ipnossoft.rma.free&hl=en_US&gl=US) by [Ipnos Software](https://play.google.com/store/apps/dev?id=8256206686213875429)
 
 ## license
 
-    - what other developers can and connot do with your project
+MIT License
+
+Copyright (c) [2022] [Ahmed Tolan]
