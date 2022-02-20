@@ -16,28 +16,19 @@ const randomSelect = (arr) => {
 };
 
 //format meditation message input => arr-> [inhale, hold, exhale, boxcycles]
+const formatMsg = obj =>{
+    let inhale = obj.inhale;
+    let hold = obj.hold;
+    let exhale = obj.exhale;
+    let boxCycle = obj.boxCycle;
 
+    //inhale for 5 then hold for 2 then exhale for 3 then hold for 6 , then repeat for 4 box cycle
+    let msg = "Inhale for 4 then hold for 4 then exhale for 4 then hold for 4 , then repeat for 4 box cycle"
+    if (hold === 0 ){
+        msg = `Inhale for ${inhale} then exhale for ${exhale} then inhale for ${inhale} then exhale for ${exhale} , then repeat for ${boxCycle} box cycle`
+    }else{
+        msg = `Inhale for ${inhale} then hold for ${hold} then exhale for ${inhale} then hold for ${hold} , then repeat for ${boxCycle} box cycle`
+    }
 
-//main program -- generator
-
-const generator = () => {
-  //iterate throw data store
-  let randoms = {
-    inhale: 0,
-    hold: 0,
-    exhale: 0,
-    boxCycle: 0,
-  };
-  randoms.inhale = randomSelect(dataSource.duration);
-  randoms.hold = randomSelect(dataSource.hold)
-    ? randomSelect(dataSource.duration)
-    : 0;
-  randoms.exhale = randomSelect(dataSource.duration);
-  randoms.boxCycle = randomSelect(dataSource.boxCycle);
-
-  let msg = formatMsg(randoms);
-  console.log(msg);
-};
-
-console.log(`\nWelcome ${user}, let us meditate!\n`);
-generator();
+    return msg
+}
